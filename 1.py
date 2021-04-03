@@ -17,3 +17,18 @@ def out_field(field):
 
 
 print(out_field(field))
+
+
+def out_field(field):
+    print('-------------')
+    a = ''
+    for i in field:
+        for j in i:
+            a += '| '
+            a += j
+            a += ' '
+        a += '|'
+        print(a)
+        a = ''
+    print('-------------')
+    return '\n'
