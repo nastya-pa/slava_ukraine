@@ -1,3 +1,6 @@
+field = [['_', '_', '_'], ['_', '_', '_'], ['_', '_', '_']]
+
+
 def out_field(field):
     print('-------------')
     a = ''
@@ -12,4 +15,5 @@ def out_field(field):
     print('-------------')
     return '\n'
 
-print('da')
+
+print(out_field(field))
